@@ -1,0 +1,13 @@
+clip_model: models/clip-vit-large-patch14
+candidate_pool_size: 60
+frame_sampling_interval_seconds: 2.0
+rrf_kappa: 60
+ann_backend: hnsw
+hnsw_ef_construction: 200
+hnsw_ef_search: 128
+hnsw_m: 32
+entity_min_area_ratio: 0.005
+entity_max_area_ratio: 0.80
+max_entity_regions_per_frame: 8
+action_window_frames: 4
+action_stride_frames: 2

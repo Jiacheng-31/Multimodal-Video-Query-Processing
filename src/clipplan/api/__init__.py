@@ -1,0 +1,1 @@
+"""External multimodal scoring clients."""

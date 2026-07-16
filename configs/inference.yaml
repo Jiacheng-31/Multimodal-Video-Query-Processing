@@ -1,0 +1,7 @@
+model_path: models/Qwen3-VL-2B-Instruct
+candidate_pool_size: 60
+frame_sampling_interval_seconds: 2.0
+budget_ratio_of_full_visual: 0.40
+judge_temperature: 0.0
+ndcg_k: 10
+temporal_iou_threshold: 0.5

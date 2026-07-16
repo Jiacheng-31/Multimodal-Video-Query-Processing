@@ -1,0 +1,1 @@
+"""Ranked clip retrieval evaluation."""

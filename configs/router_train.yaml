@@ -1,0 +1,19 @@
+# Counterfactual PPO defaults; README identifies paper constants and runtime defaults.
+model_path: models/Qwen3-VL-2B-Instruct
+dataset_root: data/qvh
+annotation_path: data/qvh/annotations/train_router_pool_h60_ndcg10.json
+output_dir: outputs/router
+cache_path: outputs/cache/qianfan.sqlite
+max_candidates: 60
+total_training_steps: 1000
+budget_mode: full_visual_ratio
+budget_ratio: 0.40
+lambda_cf: 0.12
+cf_rollouts: 1
+ppo_clip: 0.2
+actor_lr: 1.0e-6
+critic_lr: 1.0e-4
+critic_hidden_dim: 128
+ndcg_k: 10
+iou_threshold: 0.5
+seed: 42

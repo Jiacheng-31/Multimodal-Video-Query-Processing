@@ -1,0 +1,6 @@
+dataset: qvh
+dataset_root: data/qvh
+annotation_path: data/qvh/annotations/train_router_pool_h60_ndcg10.json
+caption_path: data/qvh/captions.jsonl
+frame_subdir: frames
+frame_sampling_interval_seconds: 2.0

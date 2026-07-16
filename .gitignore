@@ -1,0 +1,33 @@
+# Credentials
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+dist/
+build/
+
+# Models and experiment artifacts
+/models/*/
+!/models/README.md
+/checkpoints/
+/data/
+/indices/
+/outputs/
+/logs/
+/cache/
+*.sqlite
+*.sqlite3
+*.parquet
+*.pt
+*.pth
+*.safetensors
+
+# Editors
+.vscode/
+.idea/

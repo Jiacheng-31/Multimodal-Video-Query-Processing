@@ -1,0 +1,9 @@
+accelerate>=0.30
+hnswlib>=0.8
+numpy>=1.24
+Pillow>=10
+PyYAML>=6
+qwen-vl-utils>=0.0.8
+requests>=2.31
+torch>=2.2
+transformers>=4.51

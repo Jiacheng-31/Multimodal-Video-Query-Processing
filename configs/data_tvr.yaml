@@ -1,0 +1,6 @@
+dataset: tvr
+dataset_root: data/tvr
+annotation_path: data/tvr/annotations/train_router_pool_h60_ndcg10.json
+caption_path: data/tvr/captions.jsonl
+frame_subdir: frames
+frame_sampling_interval_seconds: 2.0
