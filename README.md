@@ -4,7 +4,16 @@ ClipPlan retrieves and globally ranks temporal clips from a video corpus under a
 
 This repository contains source code and configuration only. It does not include datasets, model weights, retrieval indices, API credentials, checkpoints, caches, logs, or paper results.
 
+<p align="center">
+  <img src="docs/assets/intro.png" alt="ClipPlan motivation: adaptive text and visual processing for video queries" width="850">
+</p>
+<p align="center"><em>ClipPlan selects the appropriate processing mode for each video-query pair.</em></p>
+
 ## Pipeline
+
+<p align="center">
+  <img src="docs/assets/framework.png" alt="ClipPlan framework overview" width="900">
+</p>
 
 1. Normalize query and temporal relevance annotations.
 2. Extract frames at the paper default interval of 2 seconds.
